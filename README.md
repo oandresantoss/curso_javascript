@@ -1,4 +1,4 @@
-# Curso_JS
+# Curso_JS (Exercicio 02 - Tratamento de dados - Curso JavaScript Gustavo Guanabara #06)
 
 # 🚀 estudo_javascript
 
@@ -37,3 +37,5 @@ E talvez, alguém que esteja começando agora possa encontrar aqui um empurrão,
 ---
 
 📌 Me acompanhe por aqui. O código é só o começo. 💻✨
+
+

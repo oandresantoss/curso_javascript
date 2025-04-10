@@ -1,5 +1,3 @@
-# Curso_JS (Exercicio 02 - Tratamento de dados - Curso JavaScript Gustavo Guanabara #06)
-
 # 🚀 estudo_javascript
 
 ✨ **Minha jornada prática com JavaScript começa aqui.**  

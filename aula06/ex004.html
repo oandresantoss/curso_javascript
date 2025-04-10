@@ -15,9 +15,9 @@
 
     <script>
         var nome = window.prompt('Qual o seu nome?')
-        document.write(`Olá, <strong>${nome}</strong>! Seu nome tem ${nome.length} letras.<br/>`)
-        document.write(`Seu nome em maisculo é <strong>${nome.toUpperCase()}</strong></br>`)
-        document.write(`Seu nome em minusculo é <strong>${nome.toLowerCase()}</strong></br>`)
+        document.write(`Olá, <strong>${nome}</strong>! Seu nome tem ${nome.length} letras.<br/>`) // Templatestring é quando uso ${} ao invés de + que é concatenação
+        document.write(`Seu nome em maisculo é <strong>${nome.toUpperCase()}</strong></br>`) //Placehouder é quando atribuo um valor (rotina de propriedades), função, objeto
+        document.write(`Seu nome em minusculo é <strong>${nome.toLowerCase()}</strong></br>`) // Aqui usei templatestring + (placeholders) no lugar de adição de concatenação+interpolação
     </script>
 
 </body>

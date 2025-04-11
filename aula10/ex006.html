@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos DOM</title>
+    <style>
+         div#area { /*<div> é um evento DOM como parametros*/
+            font: normal 10pt Arial;
+            background-color: rgb(87, 201, 163);
+            color: white;
+            width: 200px;
+            height: 200px; ;
+            line-height: 200px;
+            text-align: center;
+         }
+    </style>
+</head>
+<body>
+    <div id="area" onclick="clicar()" onmouseenter="entrar()" onmouseout="sair()">
+        Agora enetendi e já era! 
+    </div>
+    
+    <script>
+        var area = window.document.getElementById('area')
+
+        function clicar() {
+             area.innerText = 'clicou!'
+             area.style.background = 'red'
+        }
+        function entrar() {
+            area.innerText = 'entrou!'
+        }
+        function sair() {
+            area.innerText = 'saiu!'
+            area.style.background = 'green'
+        }
+
+    </script>
+</body>
+</html>
+
+<!--Eventos DOM, <div> é um elemento DOM uma tag, como um parametro--> 
+<!--Ex de eventos disparados com mouse dentro do elemento <div>:(mouseenter)(mousemove)(mousedown)(mouseup)(click)-->
+<!--blocos conjuntos de linhas-->
+<!--blocos são delimitados pelos sinais de {}-->
+<!--blocos são nomeados como function. ex: function ação(param){}-->

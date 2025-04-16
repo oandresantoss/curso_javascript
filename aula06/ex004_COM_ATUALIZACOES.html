@@ -16,9 +16,11 @@
     <script>
         let nome = prompt('Qual o seu nome?')
         document.write(`Olá, <strong>${nome}</strong>! Seu nome tem ${nome.length} letras.<br/>`) //Aqui usei templatestring + (placeholders) no lugar de adição de concatenação+interpolação
-        document.write(`Seu nome em maisculo é <strong>${nome.toUpperCase()}</strong>.<br/>`) //Placehouder é quando atribuo um valor (rotina de propriedades), função, objeto
+        document.write(`Seu nome em maisculo é <strong>${nome.toUpperCase()}</strong>.André<br/>`) //Placehouder é quando atribuo um valor (rotina de propriedades), função, objeto
         document.write(`Seu nome em minusculo é <strong>${nome.toLowerCase()}</strong>.<br/>`) //Templatestring é quando uso placehouders ${} ao invés de + que é concatenação ou SOMA interpolação qunado é com números
     </script>
 
 </body>
 </html>
+
+<!--VARIAVEL.tolocaleString('pt-BR', {style: 'currency', currency: 'BRL'})-->

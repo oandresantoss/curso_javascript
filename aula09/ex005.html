@@ -20,7 +20,8 @@
     <script>
         var corpo = window.document.body
         var paragrafo = window.document.getElementsByTagName('p')[1] 
-        window.document.write('Está escrito assim: ' + paragrafo.innerText)
+        window.document.write('Está escrito assim: ' + paragrafo.innerHTML)
+        corpo.style.background = 'black'
         //primeiro paragrafo é zero, o segundo é 1. Estou pegando o segundo paragrafo//
 
         /*Aqui estou selecionando um elemento DOM por Nome. mas pode ser por: Marca, ID, Nome, Calasse, Seletor

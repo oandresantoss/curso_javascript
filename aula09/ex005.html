@@ -19,9 +19,12 @@
     <div id="msg">Clique em mim</div> <!--agora estou definindo o valor de div como id--> 
     <script>
         var corpo = window.document.body
+        corpo.style.background = 'black'
         var paragrafo = window.document.getElementsByTagName('p')[1] 
         window.document.write('Está escrito assim: ' + paragrafo.innerHTML)
-        corpo.style.background = 'black'
+        var d = window.document.getElementById('msg')
+        d.style.background = 'green'
+        d.innerText = 'Aqui escrevo o que eu quiser...'
         //primeiro paragrafo é zero, o segundo é 1. Estou pegando o segundo paragrafo//
 
         /*Aqui estou selecionando um elemento DOM por Nome. mas pode ser por: Marca, ID, Nome, Calasse, Seletor
@@ -32,7 +35,11 @@
     
         var d = window.document.getElementById('msg') // estou definindo a variavel d como div+id
         d.style.background = 'blue'
-        d.innerText = 'Estou aguardando...'
+
+        Usando o queryselector
+        toda DIV é representada por uma # 
+        toda CLASSE é representada por um .
+
         */
         </script>
 </body>

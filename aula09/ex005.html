@@ -9,19 +9,26 @@
             background-color: rgb(152, 123, 239);
             color: white;
             font: normal 18pt Arial;
-        }
-
+            }
     </style>
 </head>
 <body>
-    <h1>Iniciando estudos com DOM </h1>
+    <h1>Iniciando estudos com DOM</h1>
     <p>Aqui vai o resultado</p>
     <p>Aprendendo a usar o <strong>DOM</strong> em JavaScript.</p>
     <div id="msg">Clique em mim</div> <!--agora estou definindo o valor de div como id--> 
     <script>
         var corpo = window.document.body
-        var p1 = window.document.getElementsByTagName('p')[1]
-        /*
+        var paragrafo = window.document.getElementsByTagName('p')[1] 
+        window.document.write('Está escrito assim: ' + paragrafo.innerText)
+        //primeiro paragrafo é zero, o segundo é 1. Estou pegando o segundo paragrafo//
+
+        /*Aqui estou selecionando um elemento DOM por Nome. mas pode ser por: Marca, ID, Nome, Calasse, Seletor
+        getElemetById
+        getElementsByClassName
+        getElementsByName
+        getElementsByTagName
+    
         var d = window.document.getElementById('msg') // estou definindo a variavel d como div+id
         d.style.background = 'blue'
         d.innerText = 'Estou aguardando...'

@@ -19,7 +19,7 @@ msg.innerHTML = `Agora são ${hora}:${minutos}:${segundos}`;
         //Bom dia
         img.src = 'img/manha.jpg';
         document.body.style.background = '#99abaf';
-    } else if (hora >=12 && hora <= 18){
+    } else if (hora >12 && hora <= 18){
         //Boa tarde
           img.src = 'img/tarde.jpg';
           document.body.style.background = '#f7cdb4';
